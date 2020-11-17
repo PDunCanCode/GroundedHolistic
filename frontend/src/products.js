@@ -43,7 +43,7 @@ const products = [
     name: "Snowboard Instruction",
     image: "/images/snowWalk.jpg",
     description:
-      "The ultimate snowboard session starts with Jonahthan Duncan. Whether you are into park, slalom, freeride, or just starting out, there is a package and strategy to guide your progress. Jonathan is instructing at China Peak this 20-21 winter season.",
+      "The ultimate snowboard session starts with Jonathan Duncan. Whether you are into park, slalom, freeride, or just starting out, there is a package and strategy to guide your progress. Jonathan is instructing at China Peak this 20-21 winter season.",
     brand: "Duncan/ ChinaPeak",
     category: "Instruction",
     price: 399.99,
@@ -53,7 +53,7 @@ const products = [
   },
   {
     _id: "5",
-    name: "Woodsman Workout",
+    name: "Woodsman Workout Weekend",
     image: "/images/outdoor.jpg",
     description:
       "Get a better handle on your outdoor skillset with a weekend camp sesh. The 2, or 3, day experience will focus on building your outdoor/ bushman abilities. Including axe-work, foraging, fire and camp building. ",
@@ -66,10 +66,10 @@ const products = [
   },
   {
     _id: "6",
-    name: "Bondfre Cultivation",
+    name: "Bondfire Cultivation",
     image: "/images/bondfire.jpg",
     description:
-      "Meet the Bondfire - Our most popular social event begins with fire design. Fire design typically takes 8-10 hours. All fires start with a single match and are built to be enjoyed for 3-4 hours in a group setting. ",
+      "Meet the 'Bondfire' - Our most popular social event begins with intentional fire engineering and design. Fire design typically takes 8-10 hours. All fires start with a single match and are built to be enjoyed for 3-4 hours in a group setting. ",
     brand: "Grounded",
     category: "Consultation",
     price: 229.99,
