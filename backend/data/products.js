@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "General Hollistic Health Consultation and Evaluation",
     image: "/images/jon.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "Still Mediation Session",
     image: "/images/stoned.jpg",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "Active Meditation Session",
     image: "/images/activeMed.jpg",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "4",
     name: "Snowboard Instruction",
     image: "/images/snowWalk.jpg",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "5",
     name: "Woodsman Workout Weekend",
     image: "/images/outdoor.jpg",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "Bondfire Cultivation",
     image: "/images/bondfire.jpg",
     description:
