@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Grounded App",
   "main": "server.js",
+  "type": "module",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.10.15",
     "react-bootstrap": "^1.4.0"
   },
   "devDependencies": {
