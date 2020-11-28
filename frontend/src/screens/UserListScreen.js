@@ -14,6 +14,10 @@ const UserListScreen = ({ history }) => {
 
   const userLogin = useSelector((state) => state.userLogin);
 
+  const userDelete = useSelector((state) => state.userDelete);
+
+  const { success: successDelete } = userDelete;
+
   const { userInfo } = userLogin;
 
   useEffect(() => {
@@ -23,9 +27,13 @@ const UserListScreen = ({ history }) => {
       history.pushState("/login");
     }
     dispatch(listUsers());
-  }, [dispatch, history, userInfo]);
+  }, [dispatch, history, successDelete, userInfo]);
 
-  const deleteHandler = (id) => {};
+  const deleteHandler = (id) => {
+    if (window.confirm("Are you sure")) {
+      dispatch(deleteUser(id));
+    }
+  };
 
   return (
     <>
@@ -61,7 +69,7 @@ const UserListScreen = ({ history }) => {
                   )}
                 </td>
                 <td>
-                  <LinkContainer to={`/user/${user._id}/edit`}>
+                  <LinkContainer to={`/admin/user/${user._id}/edit`}>
                     <Button variant="light" className="btn-sm">
                       <i className="fas fga-edit"></i>
                     </Button>
